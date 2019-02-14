@@ -10,8 +10,42 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9;
 }
