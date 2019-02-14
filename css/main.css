@@ -50,11 +50,6 @@ a {
   text-decoration: none;
   color: #0074d9;
 }
-/*
-ul li:first-child a {
-  color: #fff;
-  background-color: #0074d9;
-} */
 
 a:hover,
 a:focus {
